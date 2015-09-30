@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Sobre
-permalink: /about/
+permalink: /sobre/
 ---
-*Arctic Fox* is a lightweight and customisable Jekyll Theme.
+Desenvolvedor **Front-end** se aventurando no **Ruby on Rails**.
 
-* Author: Rafael Ferreira
+* Autor: Rafael Ferreira
 * Github: http://github.com/rafaelblink
 * Portfolio: http://rafaelblink.github.io
