@@ -2,12 +2,14 @@
  * ============================================== */
     .site-header {
         height: 55px;
-        background-color: #F5F5F5;
+        background-color: #333438;
         position: relative;
         width: 100%;
     }
 
-    .site-header a {color: $brand-color};
+    .site-header a {
+      color: #FFF;
+    };
 
     .site-nav {
         padding-top: 16px;
@@ -55,9 +57,9 @@
 
         .page-link {
             font-family: 'Open Sans';
-            font-weight: 700 !important;
+            //font-weight: 700 !important;
             line-height: $base-line-height;
-            letter-spacing: 0.05em;
+            //letter-spacing: 0.05em;
 
 
             &:not(:first-child) {
@@ -121,6 +123,7 @@
         color: #454545;
         display: block;
         width: 100%;
+        text-align: center;
 
         @include media-query($on-palm) {
             font-size: 1.33em;
