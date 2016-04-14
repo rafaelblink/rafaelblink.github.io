@@ -1,0 +1,12 @@
+{
+  "name": "rafaelblink.github.io",
+  "description": "Portfolio Personal",
+  "main": "",
+  "authors": [
+    "Rafael Ferreira <rafaelblink@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rafaelblink/rafaelblink.github.io",
+  "moduleType": [],
+  "private": true
+}

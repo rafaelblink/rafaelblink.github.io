@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline; }
+
+body {
+  background-color: #13171a; }
+
+.navbar-layout {
+  border-radius: 0;
+  background-color: #111315; }
+  .navbar-layout .navbar-collapse {
+    text-align: center; }
+  .navbar-layout .navbar-nav {
+    float: none;
+    display: inline-block; }
+    .navbar-layout .navbar-nav li {
+      margin-left: 10px; }
+    .navbar-layout .navbar-nav a {
+      color: #FFF;
+      font-size: 2em; }
+      .navbar-layout .navbar-nav a:hover {
+        background-color: #111315;
+        color: #325994; }
+      .navbar-layout .navbar-nav a:focus {
+        background-color: #111315; }
+
+/*# sourceMappingURL=main.css.map */
