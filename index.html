@@ -2,40 +2,86 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Rafael Ferreira - Web Developer</title>
-  <link rel="stylesheet" href="assets/css/components.min.css">
-  <link rel="stylesheet" href="assets/css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bower_components\bootstrap\dist\css\bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <title>Web Development, Desktop and Mobile</title>
 </head>
 
 <body>
-  <div id="main">
-    <header class="navbar navbar-layout">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li><a href="https://github.com/rafaelblink/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-            <li><a href="https://br.linkedin.com/in/ferreirafael" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-            <li><a href="http://pt.stackoverflow.com/users/20990/rafael-ferreira" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-    </header>
-    <section class="">
-
-    </section>
-  </div>
-  <script src="assets/js/components.min.js"></script>
+    <div id="wrapper">
+        <header class="header-layout">
+            <nav class="navbar navbar-full navbar-dark bg-primary">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item active"> <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="container jumbotron text-xs-center ">
+            <div class="container">
+                <h1 class="jumbotron-heading">Web Development, Desktop and Mobile</h1>
+                <p class="lead text-muted">Hi :) My name is Rafael Ferreira, I'm Web developer, I have 3 years in software industry, ever with Criativity, Inovation, Best Pratices, Design Patterns, SEO, and more...</p>
+                <p> <a href="#" class="btn btn-primary">Some Projects</a> <a href="#" class="btn btn-secondary">Let's talk?</a> </p>
+            </div>
+        </section>
+        <section class="container services-home">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 service"> <i class="fa fa-chrome" aria-hidden="true"></i>
+                            <h3>Front-end Development</h3>
+                            <p>HTML5, CSS3, JS, AngularJS, LESS, SASS, Yeoman, Grunt, LocalStorage</p>
+                            <p></p>
+                        </div>
+                        <div class="col-sm-3 service"> <i class="fa fa-desktop" aria-hidden="true"></i>
+                            <h3>Back-end Development</h3>
+                            <p>Ruby On Rails, C# (Windows Forms and ASP.NET MVC), Python, Java, Sql Server, MySQL, MongoDB.</p>
+                        </div>
+                        <div class="col-sm-3 service"> <i class="fa fa-mobile" aria-hidden="true"></i>
+                            <h3>Mobile Development</h3>
+                            <p>Android SDK, Ionic Framework, Phonegap.</p>
+                            <p></p>
+                        </div>
+                        <div class="col-sm-3 service"> <i class="fa fa-hand-o-up" aria-hidden="true"></i>
+                            <h3>UI Design</h3>
+                            <p>Adobe Photoshop, Adobe Illustrator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container projects-home">
+            <div class="row">
+                <div class="col-sm-12 title-section">
+                    <h1><i class="fa fa-heart" aria-hidden="true"></i> Projects</h1> </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <figure class="card-img-container"> <img class="card-img-top" src="assets/img/academic/screen-login.png" alt="Card image cap"> </figure>
+                        <div class="card-block">
+                            <h4 class="card-title">Academic Management</h4>
+                            <p class="card-text">System for Academic Managament with Student's grades, Absences, and Mobile module(Android and IOS) for students check their grades.</p> <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">More details</button> </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <figure class="card-img-container"> <img class="card-img-top" src="assets/img/academic/screen-login.png" alt="Card image cap"> </figure>
+                        <div class="card-block">
+                            <h4 class="card-title">Academic Management</h4>
+                            <p class="card-text">System for Academic Managament with Student's grades, Absences, and Mobile module(Android and IOS) for students check their grades.</p> <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">More details</button> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="bower_components\jquery\dist\jquery.js"></script>
+    <script src="bower_components\tether\dist\js\tether.js"></script>
+    <script src="bower_components\bootstrap\dist\js\bootstrap.js"></script>
 </body>
 
 </html>
