@@ -32,3 +32,13 @@ h1, h2, h3, h4, h5 {
 .card-img-container {
     text-align: center;
 }
+
+.icons-social {
+    font-size: 25px;
+    color: #a9a9a9;
+    text-decoration: none;
+}
+
+.icons-social:hover {
+    text-decoration: none;
+}
