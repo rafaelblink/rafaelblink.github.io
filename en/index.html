@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css">
+    <title>Web Development, Desktop and Mobile</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+</head>
+
+<body>
+    <div id="wrapper">
+        <!--
+        <header class="header-layout">
+            <nav class="navbar navbar-full navbar-dark bg-primary">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item active"> <a class="nav-link" href="../">Home <span class="sr-only">(current)</span></a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="../contact.html">Contact</a> </li>
+                </ul>
+            </nav>
+        </header>
+-->
+        <section class="container jumbotron text-xs-center ">
+            <div class="container">
+                <h1 class="jumbotron-heading">Web Development, Desktop and Mobile</h1>
+                <p class="lead text-muted">Hi :) My name is Rafael Ferreira, I am a Web developer, I have over 4 years at software industry, ever with Criativity, Inovation, Best Pratices, Design Patterns, SEO, and more...</p>
+                <p> <a href="/" class="btn btn-primary">Português?</a> <a href="contact.html" class="btn btn-secondary">Let's talk?</a> </p>
+                <div>
+                    <a href="../https://br.linkedin.com/in/ferreirafael" class="icons-social" title="Linkedin" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i> </a>
+                    <a href="../https://github.com/rafaelblink" class="icons-social" title="Github" target="_blank"> <i class="fa fa-github-alt" aria-hidden="true"></i> </a>
+                </div>
+            </div>
+        </section>
+        <section class="container services-home">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 service"> <i class="fa fa-chrome" aria-hidden="true"></i>
+                            <h3>Front-end and Client-Side</h3>
+                            <p>HTML5, CSS3, JS, AngularJS, LESS, SASS, Yeoman, Grunt, LocalStorage</p>
+                            <p></p>
+                        </div>
+                        <div class="col-sm-3 service"> <i class="fa fa-desktop" aria-hidden="true"></i>
+                            <h3>Back-end and Server-Side</h3>
+                            <p>Ruby On Rails, C# (Windows Forms and ASP.NET MVC), Python, Java, Sql Server, MySQL, MongoDB.</p>
+                        </div>
+                        <div class="col-sm-3 service"> <i class="fa fa-mobile" aria-hidden="true"></i>
+                            <h3>Mobile Development</h3>
+                            <p>Android SDK, Xamarin, Ionic Framework, Phonegap.</p>
+                            <p></p>
+                        </div>
+                        <div class="col-sm-3 service"> <i class="fa fa-hand-o-up" aria-hidden="true"></i>
+                            <h3>UI Design</h3>
+                            <p>Adobe Photoshop, Adobe Illustrator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container projects-home">
+            <div class="row">
+                <div class="col-sm-12 title-section">
+                    <h1><i class="fa fa-heart" aria-hidden="true"></i> Projects</h1> </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <figure class="card-img-container"> <img class="card-img-top img-fluid" src="../assets/img/chrome-extension-dollar-today/screenshot-dollar.png" alt="Card image cap"> </figure>
+                        <div class="card-block">
+                            <h4 class="card-title">Dollar Today - 2016</h4>
+                            <p class="card-text">This is a Chrome Extension for calculate USD value in BRL currency. Is was made with AngularJS and Bower to manage components.</p>
+                            <button href="../#" class="btn btn-primary" data-toggle="modal" data-target="#modal-extension">More details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <figure class="card-img-container"> <img class="card-img-top img-fluid" src="../assets/img/first-aid/screenshot-dollar.png" alt="Card image cap"> </figure>
+                        <div class="card-block">
+                            <h4 class="card-title">First Aid - 2016</h4>
+                            <p class="card-text">Android APP for First Aid in PT-BR language with more than 1.000 downloads.</p> <a href="../https://play.google.com/store/apps/details?id=rafa.site.inforsaude" class="btn btn-primary" target="_blank">Download</a> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <figure class="card-img-container"> <img class="card-img-top img-fluid" src="../assets/img/wanted/wanted.png" alt="Card image cap"> </figure>
+                        <div class="card-block">
+                            <h4 class="card-title">Wanted System - 2013</h4>
+                            <p class="card-text">Wanted system for Police of the state of the Paraíba - PB - Brazil.</p> <a href="../http://www.procurados.pb.gov.br/procurados" class="btn btn-primary" target="_blank">Visit</a> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Modal Video Extension -->
+    <div class="modal fade" id="modal-extension" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+                    <h4 class="modal-title" id="myModalLabel">Dollar Today</h4> </div>
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/50u5ik_mF6c?rel=0" allowfullscreen></iframe>
+                    </div> <a href="../https://chrome.google.com/webstore/detail/d%C3%B3lar-hoje/kojmacjhakphnfgeoikhfegckafbbjig?hl=pt-BR" target="_blank" class="btn btn-danger btn-lg btn-block m-t-1">Download</a> </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../bower_components\jquery\dist\jquery.js"></script>
+    <script src="../bower_components\tether\dist\js\tether.js"></script>
+    <script src="../bower_components\bootstrap\dist\js\bootstrap.js"></script>
+</body>
+
+</html>
