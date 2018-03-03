@@ -1,11 +1,19 @@
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: 100;
 }
 
 .service {
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.service h3,
+.service .icon {
+    text-align: center;
 }
 
 .service:hover {
@@ -13,7 +21,7 @@ h1, h2, h3, h4, h5 {
     color: #FFF;
 }
 
-.service i {
+.icon {
     font-size: 75px;
     padding: 20px;
 }
@@ -41,4 +49,12 @@ h1, h2, h3, h4, h5 {
 
 .icons-social:hover {
     text-decoration: none;
+}
+
+.card-block {
+    padding: 1.25rem;
+}
+
+.card {
+    margin-bottom: 0.75rem;
 }
