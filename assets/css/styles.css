@@ -30,8 +30,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #5f6b77;
-  color: #2d844e;
+  color: #a163e7;
 }
 
 a:focus {
@@ -96,7 +95,7 @@ a.btn-cta-secondary:hover, a.btn-cta-secondary:not(:disabled):not(.disabled):act
 }
 
 .badge-theme {
-  background: #B777FF;
+  background: #5B3C80;
   font-size: 12px;
   color: #fff;
   -webkit-border-radius: 2px;
