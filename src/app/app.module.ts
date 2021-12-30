@@ -7,6 +7,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { SectionTitleComponent } from './shared/section-title/section-title.component';
 import { ProgressBarComponent } from './shared/progress-bar/progress-bar.component';
+import { CardComponent } from './shared/card/card.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ProgressBarComponent } from './shared/progress-bar/progress-bar.compone
     HomeComponent,
     HeaderComponent,
     SectionTitleComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    CardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
