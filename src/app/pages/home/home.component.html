@@ -1,0 +1,113 @@
+<main class="container mt-5">
+  <section class="top-site row">
+    <div class="col-md-7 col-lg-7 col-sm-12">
+      <h1 class="top-site__title mb-3">
+        <b>Professional Design</b> for your product
+      </h1>
+      <div class="top-site__description">
+        <p>
+          Hello there! 👋 I'm <b>Rafael</b>, a <b>designer technologist</b> based in
+          João Pessoa - Brazil currently working at Minsait.
+        </p>
+        <p>I help businesses big and small to turn their ideas into great products their customers love.</p>
+      </div>
+      <div class="top-site__availability">
+        <div class="top-site__availability__blob"></div> I’m currently available
+      </div>
+      <button type="button" class="btn btn-outline-primary">See my work</button>
+      <button type="button" class="btn btn-primary ms-3">Hire Me</button>
+    </div>
+    <div class="col col-md-5 col-lg-5 d-none d-md-block text-center">
+      <img src="/assets/img/design-profile-circles.svg" alt="circles">
+    </div>
+  </section>
+  <section id="my-skills" class="my-skills mt-5">
+    <div class="row">
+      <div class="col-12">
+        <app-section-title subTitle="A little bit about" mainTitleNormal="My" mainTitleBolder="Skills"></app-section-title>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-md-3">
+        <app-progress-bar title="Product Design" [percentage]="80"></app-progress-bar>
+      </div>
+      <div class="col-6 col-md-3">
+        <app-progress-bar title="UI Design" [percentage]="100"></app-progress-bar>
+      </div>
+      <div class="col-6 col-md-3">
+        <app-progress-bar title="UX Design" [percentage]="80"></app-progress-bar>
+      </div>
+      <div class="col-6 col-md-3">
+        <app-progress-bar title="UI Design" [percentage]="100"></app-progress-bar>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-md-3">
+        <app-progress-bar title="Code" [percentage]="80"></app-progress-bar>
+      </div>
+      <div class="col-6 col-md-3">
+        <app-progress-bar title="Angular & Ionic" [percentage]="90"></app-progress-bar>
+      </div>
+      <div class="col-6 col-md-3">
+        <app-progress-bar title="React & React Native" [percentage]="50"></app-progress-bar>
+      </div>
+      <div class="col-6 col-md-3">
+        <app-progress-bar title="C# & .NET Core" [percentage]="80"></app-progress-bar>
+      </div>
+    </div>
+  </section>
+  <section id="extra-stuff" class="extra-stuff mt-3">
+    <div class="row">
+      <div class="col-12">
+        <app-section-title subTitle="A few" mainTitleNormal="Extra" mainTitleBolder="Stuff"></app-section-title>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-4">
+       <app-card footer="More than 1 million people use the products I've worked on">
+        <p>Versatile in working on digital products</p>
+        <img src="/assets/img/icons-stuff.svg" alt="icons-stuff">
+       </app-card>
+      </div>
+      <div class="col-12 col-lg-4">
+        <app-card footer="Eight years of experience in web & software development">
+          <img style="margin: 2.7rem 0;" src="/assets/img/years-card.svg" alt="icons-stuff">
+        </app-card>
+       </div>
+       <div class="col-12 col-lg-4">
+        <app-card footer="Every time following Gothelf e Seiden UX process">
+          <img style="margin: 0.7rem 0;" src="/assets/img/steps-ux-process.svg" alt="icons-stuff">
+        </app-card>
+       </div>
+    </div>
+  </section>
+  <section id="my-work" class="my-work mt-3 mb-5">
+    <div class="row">
+      <div class="col-12">
+        <app-section-title subTitle="Now, the main stuff" mainTitleNormal="My" mainTitleBolder="Work"></app-section-title>
+      </div>
+    </div>
+    <div class="row">
+      <div class="my-work__col col-6 text-center">
+        <img class="img-fluid my-work__img" src="/assets/img/projects/portfolio-logo.svg" alt="">
+        <div class="mt-3">
+          <h4>
+            <a target="_blank" href="https://www.figma.com/file/D3srvHfz5HNvmBQqQWwxmf/Portfolio?node-id=8%3A141">My Portfolio and Logo</a>
+          </h4>
+          <p>
+            Designing a set of features such as logo and website portfolio showing my skills and projects that I've worked for.
+          </p>
+        </div>
+      </div>
+      <div class="my-work__col col-6 text-center">
+        <img class="img-fluid my-work__img" src="/assets/img/projects/cadastro-simples.svg" alt="">
+        <div class="mt-3">
+          <h4>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.ionicframework.cadastroclientessimples118824">Customer Registration Mobile App</a>
+          </h4>
+          <p>Android mobile application for customers that would like handle products and services.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
