@@ -36,6 +36,9 @@
     align-items: center;
     justify-content: end;
   }
+  &__img {
+    max-width: 80%;
+  }
 }
 
 @keyframes pulse {
