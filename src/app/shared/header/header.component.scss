@@ -1,0 +1,11 @@
+@import "../../../utilities/variables";
+
+.navbar {
+  font-size: 1rem;
+  text-transform: uppercase;
+  .nav-link {
+    color: $primary;
+    margin-right: 1rem;
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,12 @@
+<div class="text-center">
+  <b>{{ title }}</b>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+    role="progressbar"
+    [ngStyle]="{'width': percentage + '%' }"
+    aria-valuemin="0"
+    aria-valuemax="100">
+    </div>
+  </div>
+  <p>{{percentage}}%</p>
+</div>

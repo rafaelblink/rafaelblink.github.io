@@ -1,0 +1,14 @@
+@import "../../../utilities/variables";
+
+.sub-title {
+  color: $info;
+  font-size: 1.125rem;
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: 300;
+  b {
+    font-weight: 900;
+  }
+}

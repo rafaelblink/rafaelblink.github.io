@@ -1,0 +1,16 @@
+@import "utilities/variables";
+@import "bootstrap";
+
+body {
+  background-color: $light-blue;
+  color: $primary;
+  font-family: "Varta", sans-serif;
+}
+
+.btn {
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+}
