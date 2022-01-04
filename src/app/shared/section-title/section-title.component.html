@@ -1,4 +1,4 @@
-<div class="text-center">
-  <h3 class="sub-title">{{subTitle}}</h3>
-  <h1 class="main-title">{{mainTitleNormal}} <b>{{mainTitleBolder}}</b></h1>
+<div class="text-center mb-3">
+  <h3 [innerHTML]="subTitle | translate" class="sub-title"></h3>
+  <h1 [innerHTML]="mainTitle | translate"class="main-title"></h1>
 </div>

@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class SectionTitleComponent implements OnInit {
 
   @Input() subTitle: string = '';
+  @Input() mainTitle: string = '';
   @Input() mainTitleNormal: string = '';
   @Input() mainTitleBolder: string = '';
 

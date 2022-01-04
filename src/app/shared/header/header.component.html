@@ -8,18 +8,27 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav align-items-center mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a href="#my-skills" class="nav-link active" aria-current="page">Skills</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ getCurrentLanguage() | translate }}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="javascript:void(0)" (click)="switchLanguage('en')">{{'ENGLISH' | translate}}</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0)" (click)="switchLanguage('pt-br')">{{'PORTUGUESE' | translate}}</a></li>
+          </ul>
         </li>
         <li class="nav-item">
-          <a href="#extra-stuff" class="nav-link">About</a>
+          <a href="#my-skills" class="nav-link active" aria-current="page">{{'SKILLS' | translate}}</a>
         </li>
         <li class="nav-item">
-          <a href="#my-work" class="nav-link">Work</a>
+          <a href="#extra-stuff" class="nav-link">{{'ABOUT' | translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a href="#my-work" class="nav-link">{{'WORK' | translate}}</a>
         </li>
         <li class="nav-item">
           <a class="nav-link">
-            <a class="btn btn-info text-white">Let's Chat</a>
+            <a class="btn btn-info text-white">{{'HEADER.LETS_CHAT' | translate}}</a>
           </a>
         </li>
       </ul>
