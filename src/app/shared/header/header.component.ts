@@ -2,6 +2,7 @@ import { Component, Inject, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { DOCUMENT } from '@angular/common';
 import { LanguagesEnum } from '../enums/languages-enum';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-header',
@@ -11,7 +12,10 @@ import { LanguagesEnum } from '../enums/languages-enum';
 export class HeaderComponent implements OnInit {
 
   localStorageKey = 'language';
-  constructor(private translate: TranslateService, @Inject(DOCUMENT) private document: Document) {
+  constructor(
+    private translate: TranslateService,
+    private titleService: Title,
+    @Inject(DOCUMENT) private document: Document) {
 
   }
 
@@ -19,6 +23,11 @@ export class HeaderComponent implements OnInit {
     const language = localStorage.getItem(this.localStorageKey) || LanguagesEnum.ENGLISH;
     this.translate.setDefaultLang(language);
     this.translate.use(language);
+    this.translate.onLangChange.subscribe(() => {
+      this.translate.get('SITE_TITLE').subscribe((description: string) => {
+        this.titleService.setTitle(description);
+      });
+    })
   }
 
   switchLanguage(language: string) {

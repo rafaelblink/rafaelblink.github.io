@@ -1,4 +1,5 @@
 {
+  "SITE_TITLE": "Designer Tecnologista - Designer de Produto e Desenvolvedor",
   "SKILLS": "Habilidades",
   "ABOUT": "Sobre",
   "WORK": "Trabalhos",
@@ -15,7 +16,7 @@
     "PROFESSIONAL_DESIGN": "<b>Design Profissional</b> para o seu projeto",
     "HELLO_THERE": "Olá pessoa! 👋 Sou <b>Rafael</b>, um <b>designer tecnologista</b> residente de <br />João Pessoa - Brasil, atualmente trabalhando na empresa Minsait.",
     "I_HELP": "Eu ajudo empresas de grande e pequeno porte para tornar as ideias em excelentes produtos que seus clientes amam.",
-    "ROLE_DESCRIPTION": "I help businesses big and small to turn their ideas into great products their customers love.",
+    "ROLE_DESCRIPTION": "Sendo um designer tecnologista, sou um designer com conhecimento em desenvolvimento <b>front-end</b>, <b>design</b> e <b>UX/UI</b> ao mesmo tempo. Cuido da integridade do código de um produto, qualidade de sua aparência e de seu comportamento. Por meio de pesquisas, garanto que tudo funcione adequadamente.",
     "CURRENTLY_AVAILABLE": "Estou atualmente disponível",
     "MY_RESUME": "Meu currículo <small>(Inglês)</small>",
     "HIRE_ME": "Contrate-me",
