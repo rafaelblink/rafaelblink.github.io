@@ -33,6 +33,8 @@
     "MY_PORTFOLIO_LOGO": "Meu Portfólio e Logomarca",
     "MY_PORTFOLIO_LOGO_DESCRIPTION": "Desenhando algumas coisinhas como Logomarca e portfólio, mostrando um pouco das minhas habilidades e projetos que já trabalhei.",
     "CUSTOMER_REGISTRATION_APP": "Aplicativo Cadastro de Clientes",
-    "CUSTOMER_REGISTRATION_APP_DESCRIPTION": "Aplicação Android (Ionic) desenvolvida para clientes que queiram ter um controle sobre seus produtos e serviços."
+    "CUSTOMER_REGISTRATION_APP_DESCRIPTION": "Aplicação Android (Ionic) desenvolvida para clientes que queiram ter um controle sobre seus produtos e serviços.",
+    "MEDICAL_APP": "Atestados Online",
+    "MEDICAL_APP_DESCRIPTION": "Projeto open source criado com intuito de melhorar skills web e desktop com Angular, Electron e Java (Spring)."
   }
 }
