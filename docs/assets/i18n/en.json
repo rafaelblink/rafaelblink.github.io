@@ -4,8 +4,8 @@
   "ABOUT": "About",
   "WORK": "Work",
   "PRODUCT_DESIGN": "Product Design",
-  "UI_DESIGN": "Product Design",
-  "UX_DESIGN": "Product Design",
+  "UI_DESIGN": "UI Design",
+  "UX_DESIGN": "UX Design",
   "CODE": "Code",
   "ENGLISH": "English",
   "PORTUGUESE": "Portuguese",
@@ -33,6 +33,8 @@
     "MY_PORTFOLIO_LOGO": "My Portfolio and Logo",
     "MY_PORTFOLIO_LOGO_DESCRIPTION": "Designing a set of features such as logo and website portfolio showing my skills and projects that I've worked for.",
     "CUSTOMER_REGISTRATION_APP": "Customer Registration Mobile App",
-    "CUSTOMER_REGISTRATION_APP_DESCRIPTION": "Android mobile (Ionic) application for customers that would like handle products and services."
+    "CUSTOMER_REGISTRATION_APP_DESCRIPTION": "Android mobile (Ionic) application for customers that would like handle products and services.",
+    "MEDICAL_APP": "Medical Certificate Application",
+    "MEDICAL_APP_DESCRIPTION": "Open source project created in order to improve more about web and desktop skills with Angular, Electron and Java (Spring)."
   }
 }
