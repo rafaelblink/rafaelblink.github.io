@@ -1,0 +1,1417 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>Rafael Ferreira - Full Stack Developer | Portfolio</title>
+    <meta
+      name="description"
+      content="Rafael Ferreira - Senior Full Stack Developer with 13+ years of experience. Specialized in Angular, Node.js, TypeScript, NestJS, and UI/UX. Expert in enterprise applications for banking and telecommunications sectors."
+    />
+    <meta
+      name="keywords"
+      content="angular developer, full stack developer, javascript expert, typescript, nestjs, nodejs, ui/ux specialist, rafael ferreira, senior programmer, web developer, mobile developer, ionic framework, enterprise applications, banking software, telecommunications"
+    />
+    <meta name="author" content="Rafael Ferreira" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="7 days" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rafaelferreira.info/" />
+    <meta
+      property="og:title"
+      content="Rafael Ferreira - Senior Full Stack Developer & UI/UX Specialist"
+    />
+    <meta
+      property="og:description"
+      content="13+ years of experience in Angular, Node.js, TypeScript, and NestJS. Specialized in enterprise applications for banking and telecommunications sectors."
+    />
+    <meta
+      property="og:image"
+      content="https://rafaelferreira.info/og-image.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://rafaelferreira.info/" />
+    <meta
+      property="twitter:title"
+      content="Rafael Ferreira - Senior Full Stack Developer & UI/UX Specialist"
+    />
+    <meta
+      property="twitter:description"
+      content="13+ years of experience in Angular, Node.js, TypeScript, and NestJS. Expert in enterprise applications and UI/UX."
+    />
+    <meta
+      property="twitter:image"
+      content="https://rafaelferreira.info/og-image.jpg"
+    />
+    <meta name="twitter:creator" content="@rafaelferreira" />
+    <meta name="twitter:site" content="@rafaelferreira" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://rafaelferreira.info/" />
+    <!-- Sitemap -->
+    <link
+      rel="sitemap"
+      type="application/xml"
+      title="Sitemap"
+      href="/sitemap.xml"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              mono: ['JetBrains Mono', 'Space Mono', 'monospace'],
+              space: ['Space Mono', 'monospace'],
+            },
+            colors: {
+              matrix: {
+                50: '#f0fdf4',
+                100: '#dcfce7',
+                200: '#bbf7d0',
+                300: '#86efac',
+                400: '#4ade80',
+                500: '#22c55e',
+                600: '#16a34a',
+                700: '#15803d',
+                800: '#166534',
+                900: '#14532d',
+              },
+            },
+            animation: {
+              typing:
+                'typing 3.5s steps(40, end), blink-caret .75s step-end infinite',
+              glow: 'glow 2s ease-in-out infinite alternate',
+              float: 'float 6s ease-in-out infinite',
+            },
+            keyframes: {
+              typing: {
+                from: { width: '0' },
+                to: { width: '100%' },
+              },
+              'blink-caret': {
+                'from, to': { 'border-color': 'transparent' },
+                '50%': { 'border-color': '#22c55e' },
+              },
+              glow: {
+                from: {
+                  'text-shadow':
+                    '0 0 20px #22c55e, 0 0 30px #22c55e, 0 0 40px #22c55e',
+                },
+                to: {
+                  'text-shadow':
+                    '0 0 10px #22c55e, 0 0 20px #22c55e, 0 0 30px #22c55e',
+                },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0px)' },
+                '50%': { transform: 'translateY(-20px)' },
+              },
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rafael Ferreira",
+        "jobTitle": "Senior Full Stack Developer",
+        "description": "Senior Full Stack Developer & UI/UX Specialist with 13+ years of experience in Angular, Node.js, and enterprise applications",
+        "url": "https://rafaelferreira.info",
+        "sameAs": [
+          "https://www.linkedin.com/in/ferreirafael",
+          "https://github.com/rafaelblink"
+        ],
+        "email": "contato@rafaelferreira.info",
+        "telephone": "+55 (83) 99813-1599",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "BR",
+          "addressRegion": "PB",
+          "addressLocality": "João Pessoa"
+        },
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Minsait"
+        },
+        "knowsAbout": [
+          "Angular",
+          "Node.js",
+          "TypeScript",
+          "NestJS",
+          "UI/UX Design",
+          "Enterprise Applications",
+          "Full Stack Development",
+          "Ionic Framework"
+        ],
+        "alumniOf": [
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "Instituto Federal da Paraíba - IFPB"
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "Centro Universitário de João Pessoa - UNIPÊ"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-810BTQHK4V"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-810BTQHK4V');
+    </script>
+  </head>
+  <body class="bg-black text-matrix-400 font-mono overflow-x-hidden">
+    <!-- Navigation -->
+    <nav
+      class="fixed top-0 w-full bg-black/90 backdrop-blur-sm border-b border-matrix-800 z-50"
+      role="navigation"
+      aria-label="Main menu"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+          <div class="text-matrix-400 font-bold text-xl">
+            <span class="text-matrix-500">&gt;</span> rafa.dev
+          </div>
+          <div class="hidden md:flex space-x-8">
+            <a
+              href="#home"
+              class="hover:text-matrix-300 transition-colors duration-300"
+              aria-label="Go to home"
+              >home</a
+            >
+            <a
+              href="#about"
+              class="hover:text-matrix-300 transition-colors duration-300"
+              aria-label="Go to about"
+              >about</a
+            >
+            <a
+              href="#experience"
+              class="hover:text-matrix-300 transition-colors duration-300"
+              aria-label="Go to experience"
+              >experience</a
+            >
+            <a
+              href="#skills"
+              class="hover:text-matrix-300 transition-colors duration-300"
+              aria-label="Go to skills"
+              >skills</a
+            >
+            <a
+              href="#education"
+              class="hover:text-matrix-300 transition-colors duration-300"
+              aria-label="Go to education"
+              >education</a
+            >
+            <a
+              href="#projects"
+              class="hover:text-matrix-300 transition-colors duration-300"
+              aria-label="Go to projects"
+              >projects</a
+            >
+            <a
+              href="#contact"
+              class="hover:text-matrix-300 transition-colors duration-300"
+              aria-label="Go to contact"
+              >contact</a
+            >
+          </div>
+          <button
+            id="mobile-menu-btn"
+            class="md:hidden text-matrix-400 hover:text-matrix-300"
+            aria-label="Open mobile menu"
+            aria-expanded="false"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="md:hidden hidden bg-black/95 border-t border-matrix-800"
+      >
+        <div class="px-4 py-2 space-y-2">
+          <a
+            href="#home"
+            class="block py-2 hover:text-matrix-300 transition-colors duration-300"
+            >home</a
+          >
+          <a
+            href="#about"
+            class="block py-2 hover:text-matrix-300 transition-colors duration-300"
+            >about</a
+          >
+          <a
+            href="#experience"
+            class="block py-2 hover:text-matrix-300 transition-colors duration-300"
+            >experience</a
+          >
+          <a
+            href="#skills"
+            class="block py-2 hover:text-matrix-300 transition-colors duration-300"
+            >skills</a
+          >
+          <a
+            href="#education"
+            class="block py-2 hover:text-matrix-300 transition-colors duration-300"
+            >education</a
+          >
+          <a
+            href="#projects"
+            class="block py-2 hover:text-matrix-300 transition-colors duration-300"
+            >projects</a
+          >
+          <a
+            href="#contact"
+            class="block py-2 hover:text-matrix-300 transition-colors duration-300"
+            >contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="min-h-screen flex items-center justify-center relative overflow-hidden"
+    >
+      <div
+        class="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-50"
+      ></div>
+      <div class="relative z-10 text-center px-4">
+        <div class="mb-8">
+          <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
+            <span class="text-matrix-500">&gt;</span>
+            <span class="animate-glow">Rafael Ferreira</span>
+          </h1>
+          <div class="text-xl md:text-2xl lg:text-3xl text-matrix-400 mb-6">
+            <span
+              id="typing-text"
+              class="border-r-2 border-matrix-500 pr-1"
+            ></span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col sm:flex-row gap-4 justify-center items-center"
+        >
+          <a
+            href="#projects"
+            class="bg-matrix-600 hover:bg-matrix-500 text-black px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-matrix-500/25"
+            aria-label="See my projects"
+          >
+            view_projects()
+          </a>
+          <a
+            href="/public/rafael_cv_simplified_en.pdf"
+            target="_blank"
+            class="border border-matrix-600 hover:bg-matrix-600 hover:text-black text-matrix-400 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+            aria-label="Download resume PDF"
+          >
+            download_resume()
+          </a>
+        </div>
+      </div>
+      <!-- Floating Elements -->
+      <div
+        class="absolute top-20 left-10 text-matrix-800 text-6xl animate-float"
+        style="animation-delay: 0s"
+      >
+        {
+      </div>
+      <div
+        class="absolute bottom-20 right-10 text-matrix-800 text-6xl animate-float"
+        style="animation-delay: 2s"
+      >
+        }
+      </div>
+      <div
+        class="absolute top-1/2 left-5 text-matrix-800 text-4xl animate-float"
+        style="animation-delay: 1s"
+      >
+        &lt;/&gt;
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+          <span class="text-matrix-500">&gt;</span> about_me()
+        </h2>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="space-y-6">
+            <div
+              class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm"
+            >
+              <h3 class="text-xl font-semibold mb-4 text-matrix-300">
+                const developer = {
+              </h3>
+              <div class="pl-4 space-y-2 text-matrix-400">
+                <p>
+                  <span class="text-matrix-500">name:</span> "Rafael Ferreira",
+                </p>
+                <p>
+                  <span class="text-matrix-500">role:</span> "Full Stack
+                  Developer & Angular Specialist with UX/UI skills",
+                </p>
+                <p>
+                  <span class="text-matrix-500">location:</span> ["Brazil",
+                  "Remote"],
+                </p>
+                <p>
+                  <span class="text-matrix-500">experience:</span> "13+ years",
+                </p>
+                <p>
+                  <span class="text-matrix-500">hobbies:</span> ["Chess",
+                  "Skateboarding"],
+                </p>
+                <p>
+                  <span class="text-matrix-500">music:</span> ["Westside Gunn",
+                  "Benny the Butcher", "DMX", "Jay-Z", "Nas"],
+                </p>
+              </div>
+              <p class="mt-4 text-matrix-300">}</p>
+            </div>
+            <p class="text-matrix-400 leading-relaxed">
+              Developer passionate about technology and innovation. Specialized
+              in creating modern and efficient web and mobile applications,
+              always with a focus on UX, best practices, and the latest
+              technologies in the market.
+            </p>
+          </div>
+          <div
+            class="bg-gray-900/30 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm"
+          >
+            <h3 class="text-xl font-semibold mb-4 text-matrix-300">
+              // Statistics
+            </h3>
+            <div class="grid grid-cols-2 gap-4">
+              <div class="text-center">
+                <div class="text-2xl font-bold text-matrix-500">13+</div>
+                <div class="text-sm text-matrix-400">Years Experience</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl font-bold text-matrix-500">20+</div>
+                <div class="text-sm text-matrix-400">Projects Delivered</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl font-bold text-matrix-500">20+</div>
+                <div class="text-sm text-matrix-400">Technologies Mastered</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl font-bold text-matrix-500">High</div>
+                <div class="text-sm text-matrix-400">Client Retention</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section id="experience" class="py-20 px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+          <span class="text-matrix-500">&gt;</span> experiences.slice(-3)
+        </h2>
+        <div class="space-y-8">
+          <!-- Experience Item 1 -->
+          <div
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm hover:border-matrix-600 transition-colors duration-300"
+          >
+            <div
+              class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4"
+            >
+              <h3 class="text-xl font-semibold text-matrix-300">
+                Senior Fullstack Developer
+              </h3>
+              <span class="text-matrix-500 text-sm">Jul 2021 to Present</span>
+            </div>
+            <p class="text-matrix-400 mb-2">
+              Minsait · Full-time · Remote - Brazil
+            </p>
+            <p class="text-sm text-matrix-400/80">
+              As a Design Technologist at Minsait, I lead UI development for
+              Brazil’s largest bank, combining UX/UI design with advanced
+              Angular architecture. I work with Signals, OnPush strategies,
+              state management, and scalable component libraries to deliver
+              high-performance, maintainable interfaces.
+            </p>
+            <div
+              class="flex flex-wrap gap-2 mt-4"
+              aria-label="Technologies used"
+            >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >Angular</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >Signals</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >RxJS</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >NestJS</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >Tailwind CSS</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >Bootstrap</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >Figma</span
+              >
+            </div>
+          </div>
+          <!-- Experience Item 2 -->
+          <div
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm hover:border-matrix-600 transition-colors duration-300"
+          >
+            <div
+              class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4"
+            >
+              <h3 class="text-xl font-semibold text-matrix-300">
+                Full Stack Developer
+              </h3>
+              <span class="text-matrix-500 text-sm">Oct 2020 to Jun 2021</span>
+            </div>
+            <p class="text-matrix-400 mb-2">
+              Rocket.Chat · Full-time · Remote - Brazil
+            </p>
+            <p class="text-sm text-matrix-400/80 mb-4">
+              At Rocket.Chat, I maintained and improved the open-source chat
+              platform, focusing on the omnichannel application. My work
+              included support queue management, external channel integrations,
+              and feature enhancements for scalable customer support.
+            </p>
+            <div class="flex flex-col gap-2 mb-4">
+              <div class="font-semibold text-matrix-300">
+                Mentor of "Google Summer of Code 2021"
+              </div>
+              <span class="text-matrix-500 text-xs">Apr 2021 to Jun 2021</span>
+              <p class="text-sm text-matrix-400/80">
+                As a mentor for Google Summer of Code, I planned requirements,
+                organized the development environment, and guided students. I
+                focused on improvements for video, calls, and accessibility in
+                the product.
+              </p>
+            </div>
+            <div
+              class="flex flex-wrap gap-2 mt-2"
+              aria-label="Technologies used"
+            >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >Node.js</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >Meteor</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >MongoDB</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >React</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >Preact</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >Open Source</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >GitHub</span
+              >
+            </div>
+          </div>
+          <!-- Experience Item 3 -->
+          <div
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm hover:border-matrix-600 transition-colors duration-300"
+          >
+            <div
+              class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4"
+            >
+              <h3 class="text-xl font-semibold text-matrix-300">
+                Full Stack Developer
+              </h3>
+              <span class="text-matrix-500 text-sm"
+                >May 2017 to October 2020</span
+              >
+            </div>
+            <p class="text-matrix-400 mb-2">
+              Indra Company · Full-time · João Pessoa, Brazil
+            </p>
+            <p class="text-sm text-matrix-400/80 mb-4">
+              Led development of large-scale applications for VIVO
+              (telecommunications) and Caixa Econômica (banking), maintaining
+              legacy systems and architecting three new MVPs as proof of concept
+              (POC). These MVPs enabled new client contracts for the
+              consultancy.
+            </p>
+            <div
+              class="flex flex-wrap gap-2 mt-2"
+              aria-label="Technologies used"
+            >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >Angular</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >.NET</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >Java</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >Ionic</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >Jira</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >MySQL</span
+              >
+              <span
+                class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                >PostgreSQL</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-4 bg-gray-900/20">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+          <span class="text-matrix-500">&gt;</span> skills.map()
+        </h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Frontend -->
+          <div
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm hover:border-matrix-600 transition-colors duration-300"
+          >
+            <h3 class="text-xl font-semibold mb-4 text-matrix-300">
+              // Frontend
+            </h3>
+            <div class="space-y-3">
+              <div class="flex justify-between items-center">
+                <span>Angular / Ionic</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 95%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>JavaScript</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 95%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>TypeScript</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 95%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>RxJS</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>Signals</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 60%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>Bootstrap</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>Tailwind CSS</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 60%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend -->
+          <div
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm hover:border-matrix-600 transition-colors duration-300"
+          >
+            <h3 class="text-xl font-semibold mb-4 text-matrix-300">
+              // Backend
+            </h3>
+            <div class="space-y-3">
+              <div class="flex justify-between items-center">
+                <span>Node.js</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>NestJS</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 85%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>MySQL</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 70%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>PostgreSQL</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 70%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>MongoDB</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 50%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>TypeORM</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 70%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>C# / .NET Core</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 60%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm hover:border-matrix-600 transition-colors duration-300"
+          >
+            <h3 class="text-xl font-semibold mb-4 text-matrix-300">
+              // Tools & Others
+            </h3>
+            <div class="space-y-3">
+              <div class="flex justify-between items-center">
+                <span>AI</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 60%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>GitHub / GitLab</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>Docker</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 70%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>AWS</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 60%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>Linux</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>Figma</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 85%"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>Photoshop</span>
+                <div class="w-24 bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-matrix-500 h-2 rounded-full"
+                    style="width: 95%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+          <span class="text-matrix-500">&gt;</span> education.sort()
+        </h2>
+        <div class="space-y-8">
+          <!-- Education Item 1 -->
+          <div
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm hover:border-matrix-600 transition-colors duration-300"
+          >
+            <div
+              class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4"
+            >
+              <h3 class="text-xl font-semibold text-matrix-300">
+                Special Student in the Master's Program in Human-Computer
+                Interaction (UX)
+              </h3>
+              <span class="text-matrix-500 text-sm">2023</span>
+            </div>
+            <p class="text-matrix-400 mb-2">
+              Instituto Federal da Paraíba - IFPB
+            </p>
+            <p class="text-sm text-matrix-400/80">
+              Covers UX and UI basics, focusing on intuitive, accessible
+              interfaces. Includes Nielsen’s heuristics: system status,
+              real-world match, user control, consistency, error prevention,
+              recognition, flexibility, aesthetic design, error recovery, and
+              helpful documentation.
+            </p>
+          </div>
+          <!-- Education Item 2 -->
+          <div
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm hover:border-matrix-600 transition-colors duration-300"
+          >
+            <div
+              class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4"
+            >
+              <h3 class="text-xl font-semibold text-matrix-300">
+                Postgraduate in Product Design - UX/UI
+              </h3>
+              <span class="text-matrix-500 text-sm">2021 - 2022</span>
+            </div>
+            <p class="text-matrix-400 mb-2">Anhanguera Educacional</p>
+            <p class="text-sm text-matrix-400/80">
+              Specialized in product design, user research, and Design Thinking methodologies. Focus on UX/UI best practices and leading multidisciplinary design teams.
+            </p>
+          </div>
+          <!-- Education Item: UNIPE -->
+          <div
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm hover:border-matrix-600 transition-colors duration-300"
+          >
+            <div
+              class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4"
+            >
+              <h3 class="text-xl font-semibold text-matrix-300">
+                Bachelor in Internet Systems
+              </h3>
+              <span class="text-matrix-500 text-sm">2016 - 2019</span>
+            </div>
+            <p class="text-matrix-400 mb-2">
+              Centro Universitário de João Pessoa - UNIPÊ
+            </p>
+            <p class="text-sm text-matrix-400/80">
+              Comprehensive study of web/mobile development, system architecture, and databases. Focused on practical projects using Java, JavaScript, Python, and modern web technologies.
+            </p>
+          </div>
+          <!-- Education Item: UNINTER -->
+          <div
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm hover:border-matrix-600 transition-colors duration-300"
+          >
+            <div
+              class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4"
+            >
+              <h3 class="text-xl font-semibold text-matrix-300">
+                Associate's Degree in Internet Informatics
+              </h3>
+              <span class="text-matrix-500 text-sm">2013 - 2014</span>
+            </div>
+            <p class="text-matrix-400 mb-2">
+              União de Ensino e Pesquisa Integrada - UNEPI
+            </p>
+            <p class="text-sm text-matrix-400/80">
+              Foundation in web development, databases, and programming. Practical curriculum covering web design, security, and business solutions development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+          <span class="text-matrix-500">&gt;</span> featured_projects()
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- MVP Orçamentos -->
+          <div
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg overflow-hidden backdrop-blur-sm hover:border-matrix-600 transition-all duration-300 transform hover:scale-105"
+          >
+            <div class="p-6">
+              <div class="flex items-center justify-between mb-4">
+                <h3 class="text-xl font-semibold text-matrix-300">
+                  Budget & Work Orders
+                </h3>
+                <span class="bg-yellow-600 text-black text-xs px-2 py-1 rounded"
+                  >IN PROGRESS</span
+                >
+              </div>
+              <p class="text-matrix-400 mb-4">
+                Comprehensive application for managing budgets and work orders.
+                Features include a dashboard, client and product management, and
+                detailed financial reporting.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >Angular</span
+                >
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >Node.js</span
+                >
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >PostgreSQL</span
+                >
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >TypeScript</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 bg-gray-900/20">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+          <span class="text-matrix-500">&gt;</span> get_in_touch()
+        </h2>
+        <div class="grid md:grid-cols-2 gap-12">
+          <!-- Contact Info -->
+          <div class="space-y-6">
+            <div
+              class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm"
+            >
+              <h3 class="text-xl font-semibold mb-4 text-matrix-300">
+                // Contact Information
+              </h3>
+              <div class="space-y-4">
+                <div class="flex items-center space-x-3">
+                  <svg
+                    class="w-5 h-5 text-matrix-500"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    ></path>
+                  </svg>
+                  <a
+                    href="mailto:contato@rafaelferreira.info"
+                    class="text-matrix-400 hover:text-matrix-300 transition-colors"
+                  >
+                    contato@rafaelferreira.info
+                  </a>
+                </div>
+                <div class="flex items-center space-x-3">
+                  <svg
+                    class="w-5 h-5 text-matrix-500"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                    ></path>
+                  </svg>
+                  <a
+                    href="tel:+5583998131599"
+                    class="text-matrix-400 hover:text-matrix-300 transition-colors"
+                  >
+                    +55 (83) 99813-1599
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div
+              class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm"
+            >
+              <h3 class="text-xl font-semibold mb-4 text-matrix-300">
+                // Social Networks
+              </h3>
+              <div class="flex space-x-4">
+                <a
+                  href="https://www.linkedin.com/in/ferreirafael"
+                  target="_blank"
+                  class="text-matrix-400 hover:text-matrix-300 transition-colors transform hover:scale-110"
+                  aria-label="LinkedIn"
+                >
+                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/rafaelblink"
+                  target="_blank"
+                  class="text-matrix-400 hover:text-matrix-300 transition-colors transform hover:scale-110"
+                  aria-label="GitHub"
+                >
+                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://rafaelferreira.info/"
+                  target="_blank"
+                  class="text-matrix-400 hover:text-matrix-300 transition-colors transform hover:scale-110"
+                  aria-label="Website"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm"
+          >
+            <h3 class="text-xl font-semibold mb-4 text-matrix-300">
+              // Send Message
+            </h3>
+            <form id="contact-form" class="space-y-4">
+              <div>
+                <label
+                  for="name"
+                  class="block text-sm font-medium text-matrix-400 mb-2"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  class="w-full bg-gray-800 border border-matrix-700 rounded-lg px-4 py-2 text-matrix-300 focus:border-matrix-500 focus:outline-none transition-colors"
+                  placeholder="Your name"
+                />
+              </div>
+              <div>
+                <label
+                  for="email"
+                  class="block text-sm font-medium text-matrix-400 mb-2"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  class="w-full bg-gray-800 border border-matrix-700 rounded-lg px-4 py-2 text-matrix-300 focus:border-matrix-500 focus:outline-none transition-colors"
+                  placeholder="your@email.com"
+                />
+              </div>
+              <div>
+                <label
+                  for="subject"
+                  class="block text-sm font-medium text-matrix-400 mb-2"
+                  >Subject</label
+                >
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  required
+                  class="w-full bg-gray-800 border border-matrix-700 rounded-lg px-4 py-2 text-matrix-300 focus:border-matrix-500 focus:outline-none transition-colors"
+                  placeholder="Message subject"
+                />
+              </div>
+              <div>
+                <label
+                  for="message"
+                  class="block text-sm font-medium text-matrix-400 mb-2"
+                  >Message</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                  class="w-full bg-gray-800 border border-matrix-700 rounded-lg px-4 py-2 text-matrix-300 focus:border-matrix-500 focus:outline-none transition-colors resize-none"
+                  placeholder="Your message..."
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-matrix-600 hover:bg-matrix-500 text-black font-semibold py-2 px-4 rounded-lg transition-colors duration-300"
+              >
+                send_message()
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-4 border-t border-matrix-800">
+      <div class="max-w-6xl mx-auto text-center">
+        <p class="text-matrix-400">
+          <span class="text-matrix-500">&copy;</span> 2025 Rafael Ferreira.
+          <span class="text-matrix-600"
+            >console.log("Made with ❤️ and lots of ☕");</span
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!-- EmailJS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init('FdvJHiU9sAU5KLKuX');
+      })();
+    </script>
+
+    <!-- Scripts -->
+    <script>
+      // Mobile Menu Toggle
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        const isExpanded =
+          mobileMenuBtn.getAttribute('aria-expanded') === 'true';
+        mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
+      });
+
+      // Close mobile menu when clicking on links
+      const mobileLinks = mobileMenu.querySelectorAll('a');
+      mobileLinks.forEach((link) => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+          mobileMenuBtn.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      // Typing Animation
+      const texts = [
+        'Full Stack Developer',
+        'UX/UI Specialist',
+        'Angular Expert',
+        'Web & Mobile Developer',
+        'Problem Solver',
+      ];
+
+      let textIndex = 0;
+      let charIndex = 0;
+      let isDeleting = false;
+      const typingElement = document.getElementById('typing-text');
+
+      function typeText() {
+        const currentText = texts[textIndex];
+
+        if (isDeleting) {
+          typingElement.textContent = currentText.substring(0, charIndex - 1);
+          charIndex--;
+        } else {
+          typingElement.textContent = currentText.substring(0, charIndex + 1);
+          charIndex++;
+        }
+
+        let typeSpeed = isDeleting ? 50 : 100;
+
+        if (!isDeleting && charIndex === currentText.length) {
+          typeSpeed = 2000;
+          isDeleting = true;
+        } else if (isDeleting && charIndex === 0) {
+          isDeleting = false;
+          textIndex = (textIndex + 1) % texts.length;
+          typeSpeed = 500;
+        }
+
+        setTimeout(typeText, typeSpeed);
+      }
+
+      // Start typing animation
+      typeText();
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start',
+            });
+          }
+        });
+      });
+
+      // Contact Form
+      document
+        .getElementById('contact-form')
+        .addEventListener('submit', function (e) {
+          e.preventDefault();
+
+          // Show loading
+          const submitButton = this.querySelector('button[type="submit"]');
+          const originalText = submitButton.textContent;
+          submitButton.textContent = 'Sending...';
+          submitButton.disabled = true;
+
+          // Prepare template parameters
+          const templateParams = {
+            from_name: this.name.value,
+            from_email: this.email.value,
+            subject: this.subject.value,
+            message: this.message.value,
+          };
+
+          // Send email
+          emailjs
+            .send('service_20nmy5c', 'template_0jsvmrg', templateParams)
+            .then(() => {
+              // Success message
+              alert('Message sent successfully!');
+              this.reset();
+            })
+            .catch((error) => {
+              console.error('Error sending message:', error);
+              alert('Error sending message. Please try again.');
+            })
+            .finally(() => {
+              // Restore button
+              submitButton.textContent = originalText;
+              submitButton.disabled = false;
+            });
+        });
+
+      // Intersection Observer for animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px',
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, observerOptions);
+
+      // Observe all sections
+      document.querySelectorAll('section').forEach((section) => {
+        section.style.opacity = '0';
+        section.style.transform = 'translateY(20px)';
+        section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        observer.observe(section);
+      });
+
+      // Add active class to navigation based on scroll position
+      window.addEventListener('scroll', () => {
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('nav a[href^="#"]');
+
+        let current = '';
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          if (scrollY >= sectionTop - 200) {
+            current = section.getAttribute('id');
+          }
+        });
+
+        navLinks.forEach((link) => {
+          link.classList.remove('text-matrix-300');
+          if (link.getAttribute('href') === `#${current}`) {
+            link.classList.add('text-matrix-300');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
