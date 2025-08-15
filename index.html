@@ -391,7 +391,7 @@
     <!-- About Section -->
     <section id="about" class="py-20 px-4">
       <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+        <h2 class="text-2xl md:text-4xl font-bold mb-8 text-center break-words">
           <span class="text-matrix-500">&gt;</span> about_me()
         </h2>
         <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -467,7 +467,7 @@
     <!-- Professional Experience Section -->
     <section id="experience" class="py-20 px-4">
       <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+        <h2 class="text-2xl md:text-4xl font-bold mb-8 text-center break-words">
           <span class="text-matrix-500">&gt;</span> experiences.slice(-3)
         </h2>
         <div class="space-y-8">
@@ -659,7 +659,7 @@
     <!-- Skills Section -->
     <section id="skills" class="py-20 px-4 bg-gray-900/20">
       <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+        <h2 class="text-2xl md:text-4xl font-bold mb-8 text-center break-words">
           <span class="text-matrix-500">&gt;</span> skills.map()
         </h2>
         <div class="grid md:grid-cols-3 gap-8">
@@ -891,10 +891,32 @@
     <!-- Education Section -->
     <section id="education" class="py-20 px-4">
       <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+        <h2 class="text-2xl md:text-4xl font-bold mb-8 text-center break-words">
           <span class="text-matrix-500">&gt;</span> education.sort()
         </h2>
         <div class="space-y-8">
+          <!-- Education Item: Data Science & Generative AI -->
+          <div
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm hover:border-matrix-600 transition-colors duration-300"
+          >
+            <div
+              class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4"
+            >
+              <h3 class="text-xl font-semibold text-matrix-300">
+                Data Science & Generative AI with Python
+              </h3>
+              <span class="text-matrix-500 text-sm">2025</span>
+            </div>
+            <p class="text-matrix-400 mb-2">
+              Sistema de Ensino em Ciências e Tecnologias - SECTRAS
+            </p>
+            <p class="text-sm text-matrix-400/80">
+              Learned about data engineering, datalakes, and built automations
+              using cameras and machine learning for parking spot detection and
+              more. Explored practical applications of generative AI and Python
+              for real-world data solutions.
+            </p>
+          </div>
           <!-- Education Item 1 -->
           <div
             class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm hover:border-matrix-600 transition-colors duration-300"
@@ -933,7 +955,9 @@
             </div>
             <p class="text-matrix-400 mb-2">Anhanguera Educacional</p>
             <p class="text-sm text-matrix-400/80">
-              Specialized in product design, user research, and Design Thinking methodologies. Focus on UX/UI best practices and leading multidisciplinary design teams.
+              Specialized in product design, user research, and Design Thinking
+              methodologies. Focus on UX/UI best practices and leading
+              multidisciplinary design teams.
             </p>
           </div>
           <!-- Education Item: UNIPE -->
@@ -952,7 +976,9 @@
               Centro Universitário de João Pessoa - UNIPÊ
             </p>
             <p class="text-sm text-matrix-400/80">
-              Comprehensive study of web/mobile development, system architecture, and databases. Focused on practical projects using Java, JavaScript, Python, and modern web technologies.
+              Comprehensive study of web/mobile development, system
+              architecture, and databases. Focused on practical projects using
+              Java, JavaScript, Python, and modern web technologies.
             </p>
           </div>
           <!-- Education Item: UNINTER -->
@@ -971,7 +997,9 @@
               União de Ensino e Pesquisa Integrada - UNEPI
             </p>
             <p class="text-sm text-matrix-400/80">
-              Foundation in web development, databases, and programming. Practical curriculum covering web design, security, and business solutions development.
+              Foundation in web development, databases, and programming.
+              Practical curriculum covering web design, security, and business
+              solutions development.
             </p>
           </div>
         </div>
@@ -981,8 +1009,8 @@
     <!-- Projects Section -->
     <section id="projects" class="py-20 px-4">
       <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
-          <span class="text-matrix-500">&gt;</span> featured_projects()
+        <h2 class="text-2xl md:text-4xl font-bold mb-8 text-center break-words">
+          <span class="text-matrix-500">&gt;</span> projects.filter()
         </h2>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- MVP Orçamentos -->
@@ -1030,8 +1058,8 @@
     <!-- Contact Section -->
     <section id="contact" class="py-20 px-4 bg-gray-900/20">
       <div class="max-w-4xl mx-auto">
-        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
-          <span class="text-matrix-500">&gt;</span> get_in_touch()
+        <h2 class="text-2xl md:text-4xl font-bold mb-8 text-center break-words">
+          <span class="text-matrix-500">&gt;</span> contact.send()
         </h2>
         <div class="grid md:grid-cols-2 gap-12">
           <!-- Contact Info -->
@@ -1233,9 +1261,7 @@
       <div class="max-w-6xl mx-auto text-center">
         <p class="text-matrix-400">
           <span class="text-matrix-500">&copy;</span> 2025 Rafael Ferreira.
-          <span class="text-matrix-600"
-            >console.log("Made with ❤️ and lots of ☕");</span
-          >
+          <span class="text-matrix-600">console.log("Made with ❤️");</span>
         </p>
       </div>
     </footer>
