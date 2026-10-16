@@ -223,10 +223,10 @@
               >home</a
             >
             <a
-              href="#about"
+              href="#projects"
               class="hover:text-matrix-300 transition-colors duration-300"
-              aria-label="Go to about"
-              >about</a
+              aria-label="Go to projects"
+              >projects</a
             >
             <a
               href="#experience"
@@ -241,16 +241,16 @@
               >skills</a
             >
             <a
+              href="#about"
+              class="hover:text-matrix-300 transition-colors duration-300"
+              aria-label="Go to about"
+              >about</a
+            >
+            <a
               href="#education"
               class="hover:text-matrix-300 transition-colors duration-300"
               aria-label="Go to education"
               >education</a
-            >
-            <a
-              href="#projects"
-              class="hover:text-matrix-300 transition-colors duration-300"
-              aria-label="Go to projects"
-              >projects</a
             >
             <a
               href="#contact"
@@ -293,9 +293,9 @@
             >home</a
           >
           <a
-            href="#about"
+            href="#projects"
             class="block py-2 hover:text-matrix-300 transition-colors duration-300"
-            >about</a
+            >projects</a
           >
           <a
             href="#experience"
@@ -308,14 +308,14 @@
             >skills</a
           >
           <a
+            href="#about"
+            class="block py-2 hover:text-matrix-300 transition-colors duration-300"
+            >about</a
+          >
+          <a
             href="#education"
             class="block py-2 hover:text-matrix-300 transition-colors duration-300"
             >education</a
-          >
-          <a
-            href="#projects"
-            class="block py-2 hover:text-matrix-300 transition-colors duration-300"
-            >projects</a
           >
           <a
             href="#contact"
@@ -329,7 +329,7 @@
     <!-- Hero Section -->
     <section
       id="home"
-      class="min-h-screen flex items-center justify-center relative overflow-hidden"
+      class="min-h-[70vh] flex items-center justify-center relative overflow-hidden pt-24 pb-16"
     >
       <div
         class="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-50"
@@ -388,78 +388,158 @@
       </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="py-20 px-4">
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-4 bg-gray-900/20">
       <div class="max-w-6xl mx-auto">
-        <h2 class="text-2xl md:text-4xl font-bold mb-8 text-center break-words">
-          <span class="text-matrix-500">&gt;</span> about_me()
+        <h2 class="text-2xl md:text-4xl font-bold mb-4 text-center break-words">
+          <span class="text-matrix-500">&gt;</span> projects.filter()
         </h2>
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-          <div class="space-y-6">
-            <div
-              class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm"
-            >
-              <h3 class="text-xl font-semibold mb-4 text-matrix-300">
-                const developer = {
-              </h3>
-              <div class="pl-4 space-y-2 text-matrix-400">
-                <p>
-                  <span class="text-matrix-500">name:</span> "Rafael Ferreira",
-                </p>
-                <p>
-                  <span class="text-matrix-500">role:</span> "Full Stack
-                  Developer & Angular Specialist with UX/UI skills",
-                </p>
-                <p>
-                  <span class="text-matrix-500">location:</span> ["Brazil",
-                  "Remote"],
-                </p>
-                <p>
-                  <span class="text-matrix-500">experience:</span> "13+ years",
-                </p>
-                <p>
-                  <span class="text-matrix-500">hobbies:</span> ["Chess",
-                  "Skateboarding"],
-                </p>
-                <p>
-                  <span class="text-matrix-500">music:</span> ["Westside Gunn",
-                  "Benny the Butcher", "DMX", "Jay-Z", "Nas"],
-                </p>
-              </div>
-              <p class="mt-4 text-matrix-300">}</p>
-            </div>
-            <p class="text-matrix-400 leading-relaxed">
-              Developer passionate about technology and innovation. Specialized
-              in creating modern and efficient web and mobile applications,
-              always with a focus on UX, best practices, and the latest
-              technologies in the market.
-            </p>
-          </div>
-          <div
-            class="bg-gray-900/30 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm"
+        <p class="text-center text-matrix-400/90 mb-10 max-w-2xl mx-auto">
+          Work you can evaluate first: what was built, the stack, and the current status.
+        </p>
+        <div class="grid md:grid-cols-2 gap-8">
+          <a
+            href="https://www.gastou.cc/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg overflow-hidden backdrop-blur-sm hover:border-matrix-600 transition-all duration-300 transform hover:scale-[1.02] block focus-visible:outline focus-visible:outline-2 focus-visible:outline-matrix-500"
           >
-            <h3 class="text-xl font-semibold mb-4 text-matrix-300">
-              // Statistics
-            </h3>
-            <div class="grid grid-cols-2 gap-4">
-              <div class="text-center">
-                <div class="text-2xl font-bold text-matrix-500">13+</div>
-                <div class="text-sm text-matrix-400">Years Experience</div>
-              </div>
-              <div class="text-center">
-                <div class="text-2xl font-bold text-matrix-500">20+</div>
-                <div class="text-sm text-matrix-400">Projects Delivered</div>
-              </div>
-              <div class="text-center">
-                <div class="text-2xl font-bold text-matrix-500">20+</div>
-                <div class="text-sm text-matrix-400">Technologies Mastered</div>
-              </div>
-              <div class="text-center">
-                <div class="text-2xl font-bold text-matrix-500">High</div>
-                <div class="text-sm text-matrix-400">Client Retention</div>
-              </div>
+            <div class="grid grid-cols-2 gap-px bg-matrix-900/40">
+              <img
+                src="/public/projects/gastou-home.webp"
+                alt="gastou.cc home screen with monthly balance, income, and expenses"
+                class="h-72 w-full object-cover object-top sm:h-80"
+                width="560"
+                height="1212"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="/public/projects/gastou-reports.webp"
+                alt="gastou.cc reports with savings rate and spending by category"
+                class="h-72 w-full object-cover object-[center_62%] sm:h-80"
+                width="560"
+                height="1212"
+                loading="lazy"
+                decoding="async"
+              />
             </div>
-          </div>
+            <div class="p-6">
+              <div class="flex items-center justify-between mb-4 gap-3">
+                <h3 class="text-xl font-semibold text-matrix-300">
+                  gastou.cc
+                </h3>
+                <span class="bg-matrix-500 text-black text-xs px-2 py-1 rounded"
+                  >LIVE</span
+                >
+              </div>
+              <p class="text-matrix-400 mb-4">
+                Household finance for couples. Shared monthly balance, income,
+                and expenses, with receipt photos categorized by AI and a
+                family group. Free to use, with an optional Pro plan.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >Angular</span
+                >
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >Capacitor</span
+                >
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >NestJS</span
+                >
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >Supabase</span
+                >
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >Stripe</span
+                >
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >AI</span
+                >
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >OCR</span
+                >
+              </div>
+              <p class="text-matrix-500 text-sm">open_app() → gastou.cc</p>
+            </div>
+          </a>
+          <a
+            href="https://cannaflow-cannaflow-mobile.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-gray-900/50 border border-matrix-800 rounded-lg overflow-hidden backdrop-blur-sm hover:border-matrix-600 transition-all duration-300 transform hover:scale-[1.02] block focus-visible:outline focus-visible:outline-2 focus-visible:outline-matrix-500"
+          >
+            <div class="grid grid-cols-2 gap-px bg-matrix-900/40">
+              <img
+                src="/public/projects/cannaflow-home.webp"
+                alt="Cannaflow member dashboard with products, orders, and membership status"
+                class="h-72 w-full object-cover object-top sm:h-80"
+                width="800"
+                height="627"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="/public/projects/cannaflow-loja.webp"
+                alt="Cannaflow store with products limited by a valid medical prescription"
+                class="h-72 w-full object-cover object-[center_20%] sm:h-80"
+                width="800"
+                height="627"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="p-6">
+              <div class="flex items-center justify-between mb-4 gap-3">
+                <h3 class="text-xl font-semibold text-matrix-300">
+                  Cannaflow
+                </h3>
+                <span class="bg-matrix-500 text-black text-xs px-2 py-1 rounded"
+                  >LIVE</span
+                >
+              </div>
+              <p class="text-matrix-400 mb-4">
+                Management platform for medicinal cannabis associations.
+                Member area with store, prescription limits, orders, billing,
+                and documents — with AI and OCR for records.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >Angular</span
+                >
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >NestJS</span
+                >
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >Supabase</span
+                >
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >Asaas</span
+                >
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >AI</span
+                >
+                <span
+                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
+                  >OCR</span
+                >
+              </div>
+              <p class="text-matrix-500 text-sm">open_app() → cannaflow</p>
+            </div>
+          </a>
         </div>
       </div>
     </section>
@@ -888,8 +968,84 @@
       </div>
     </section>
 
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-2xl md:text-4xl font-bold mb-8 text-center break-words">
+          <span class="text-matrix-500">&gt;</span> about_me()
+        </h2>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="space-y-6">
+            <div
+              class="bg-gray-900/50 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm"
+            >
+              <h3 class="text-xl font-semibold mb-4 text-matrix-300">
+                const developer = {
+              </h3>
+              <div class="pl-4 space-y-2 text-matrix-400">
+                <p>
+                  <span class="text-matrix-500">name:</span> "Rafael Ferreira",
+                </p>
+                <p>
+                  <span class="text-matrix-500">role:</span> "Full Stack
+                  Developer & Angular Specialist with UX/UI skills",
+                </p>
+                <p>
+                  <span class="text-matrix-500">location:</span> ["Brazil",
+                  "Remote"],
+                </p>
+                <p>
+                  <span class="text-matrix-500">experience:</span> "13+ years",
+                </p>
+                <p>
+                  <span class="text-matrix-500">hobbies:</span> ["Chess",
+                  "Skateboarding"],
+                </p>
+                <p>
+                  <span class="text-matrix-500">music:</span> ["Westside Gunn",
+                  "Benny the Butcher", "DMX", "Jay-Z", "Nas"],
+                </p>
+              </div>
+              <p class="mt-4 text-matrix-300">}</p>
+            </div>
+            <p class="text-matrix-400 leading-relaxed">
+              Developer passionate about technology and innovation. Specialized
+              in creating modern and efficient web and mobile applications,
+              always with a focus on UX, best practices, and the latest
+              technologies in the market.
+            </p>
+          </div>
+          <div
+            class="bg-gray-900/30 border border-matrix-800 rounded-lg p-6 backdrop-blur-sm"
+          >
+            <h3 class="text-xl font-semibold mb-4 text-matrix-300">
+              // Statistics
+            </h3>
+            <div class="grid grid-cols-2 gap-4">
+              <div class="text-center">
+                <div class="text-2xl font-bold text-matrix-500">13+</div>
+                <div class="text-sm text-matrix-400">Years Experience</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl font-bold text-matrix-500">20+</div>
+                <div class="text-sm text-matrix-400">Projects Delivered</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl font-bold text-matrix-500">20+</div>
+                <div class="text-sm text-matrix-400">Technologies Mastered</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl font-bold text-matrix-500">High</div>
+                <div class="text-sm text-matrix-400">Client Retention</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Education Section -->
-    <section id="education" class="py-20 px-4">
+    <section id="education" class="py-20 px-4 border-t border-matrix-800/60">
       <div class="max-w-6xl mx-auto">
         <h2 class="text-2xl md:text-4xl font-bold mb-8 text-center break-words">
           <span class="text-matrix-500">&gt;</span> education.sort()
@@ -1001,55 +1157,6 @@
               Practical curriculum covering web design, security, and business
               solutions development.
             </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="py-20 px-4">
-      <div class="max-w-6xl mx-auto">
-        <h2 class="text-2xl md:text-4xl font-bold mb-8 text-center break-words">
-          <span class="text-matrix-500">&gt;</span> projects.filter()
-        </h2>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <!-- MVP Orçamentos -->
-          <div
-            class="bg-gray-900/50 border border-matrix-800 rounded-lg overflow-hidden backdrop-blur-sm hover:border-matrix-600 transition-all duration-300 transform hover:scale-105"
-          >
-            <div class="p-6">
-              <div class="flex items-center justify-between mb-4">
-                <h3 class="text-xl font-semibold text-matrix-300">
-                  Budget & Work Orders
-                </h3>
-                <span class="bg-yellow-600 text-black text-xs px-2 py-1 rounded"
-                  >IN PROGRESS</span
-                >
-              </div>
-              <p class="text-matrix-400 mb-4">
-                Comprehensive application for managing budgets and work orders.
-                Features include a dashboard, client and product management, and
-                detailed financial reporting.
-              </p>
-              <div class="flex flex-wrap gap-2 mb-4">
-                <span
-                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
-                  >Angular</span
-                >
-                <span
-                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
-                  >Node.js</span
-                >
-                <span
-                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
-                  >PostgreSQL</span
-                >
-                <span
-                  class="bg-matrix-800 text-matrix-300 text-xs px-2 py-1 rounded"
-                  >TypeScript</span
-                >
-              </div>
-            </div>
           </div>
         </div>
       </div>
